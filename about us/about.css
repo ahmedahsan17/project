@@ -1,0 +1,292 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 86px;
+    width: 238px;
+}
+
+.navbar {
+    background-color: #223e5a;
+    /* Custom background for navbar */
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 95px;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: #f8f9fa;
+}
+
+.navbar .navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+p {
+    line-height: 32px;
+    font-size: 16px;
+}
+/* About Us Section */
+#about-us {
+    padding: 60px 0;
+}
+
+#about-us h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#about-us .lead {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    
+}
+
+/* Mission & Vision Styles */
+.mission-vision {
+    margin-bottom: 60px;
+}
+
+.mission-vision h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Team Section */
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-member h5 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* FAQ Accordion */
+.accordion-button {
+    font-weight: 600;
+    color: #333;
+    background-color: #f8f9fa;
+    border-color: #ddd;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+.accordion-body {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact Us Section */
+.contact-us p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.contact-us .btn-primary {
+    background-color: #198754;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.contact-us .btn-primary:hover {
+    background-color: #acaba8;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #223e5a; /* Dark background color */
+    color: white; /* White text */
+    font-family: 'Poppins', sans-serif; /* Set custom font */
+  }
+  
+  .footer .btn-social {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .footer .btn-facebook {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .footer .btn-twitter {
+    background-color: #1DA1F2;
+    color: white;
+  }
+  
+  .footer .btn-instagram {
+    background-color: #E4405F;
+    color: white;
+  }
+  
+  .footer i {
+    margin-right: 8px;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer .container a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer .container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Media Icons */
+  .footer .social-icons {
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    gap: 20px; /* Space between the icons */
+    margin-top: 10px; /* Space between text and icons */
+  }
+  
+  .footer .btn-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px; /* Circle width */
+    height: 48px; /* Circle height */
+    border-radius: 50%; /* Make it round */
+    font-size: 24px; /* Icon size */
+    text-align: center;
+    padding: 0;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .footer .btn-social:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+  }
+  
+  .footer i {
+    margin: 0;
+  }
+  
+  .footer .list-unstyled {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .footer .list-unstyled li {
+    margin-bottom: 10px;
+  }
+  
+  .footer .list-unstyled li a {
+    margin-left: 11px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .footer .list-unstyled li a:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* Responsive layout for Footer */
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer .col-md-3 {
+    flex: 1 1 22%;
+    margin-bottom: 20px;
+  }
+  
+  .footer .social-icons a {
+    font-size: 1.5rem;
+  }
+  
+  .footer .social-icons {
+    display: flex;
+    flex-direction: column; /* Arrange icons vertically */
+    align-items: center; /* Center the icons horizontally */
+  }
+  
+  .footer .social-icons .col-12 {
+    margin-top: 10px; /* Adds space at the bottom of the last icon */
+  }
+  
+  @media (max-width: 768px) {
+    .footer .col-md-3 {
+      flex: 1 1 48%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer .col-md-3 {
+      flex: 1 1 100%;
+    }
+  }
+  
+  /* Copyright Section */
+  .Copyright {
+    height: 45px;
+    color: white;
+    border-top: 1px solid white;
+  }
+  
+  .Copyright p {
+    margin: 10px;
+  }
+  

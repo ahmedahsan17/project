@@ -1,0 +1,262 @@
+.navbar-brand img {
+  height: 86px;
+  width: 238px;
+}
+
+.navbar {
+  background-color: #223e5a;
+  /* Custom background for navbar */
+  padding: 0px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 95px;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #f8f9fa;
+}
+
+.navbar .navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+/* .container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} */
+
+h2 {
+  color: #223e5a;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-decoration: underline 6px #223e5a;
+  text-underline-offset: 7px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  color: #333333;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+.form-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.form-control,
+.form-select,
+textarea {
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+
+button.btn.btn-primary {
+  background-color: #223e5a;
+  border-color: #223e5a;
+}
+
+button.btn.btn-primary:hover {
+  background-color: #0e7785;
+  border-color: #0e7785;
+}
+
+/* Footer Styling for Contact Us Page */
+.contact-footer {
+  background-color: #223e5a;
+  /* Dark background color */
+  color: white;
+  /* White text */
+  font-family: 'Poppins', sans-serif;
+  /* Set custom font */
+}
+
+.contact-footer .btn-social {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.contact-footer .btn-facebook {
+  background-color: #3b5998;
+  color: white;
+}
+
+.contact-footer .btn-twitter {
+  background-color: #1DA1F2;
+  color: white;
+}
+
+.contact-footer .btn-instagram {
+  background-color: #E4405F;
+  color: white;
+}
+
+.contact-footer i {
+  margin-right: 8px;
+}
+
+.contact-footer p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-footer .container a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-footer .container a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Icons */
+.contact-footer .social-icons {
+  display: flex;
+  justify-content: center;
+  /* Center icons horizontally */
+  gap: 20px;
+  /* Space between the icons */
+  margin-top: 10px;
+  /* Space between text and icons */
+}
+
+.contact-footer .btn-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  /* Circle width */
+  height: 48px;
+  /* Circle height */
+  border-radius: 50%;
+  /* Make it round */
+  font-size: 24px;
+  /* Icon size */
+  text-align: center;
+  padding: 0;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.contact-footer .btn-social:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  /* Light hover effect */
+}
+
+.contact-footer i {
+  margin: 0;
+}
+
+.contact-footer .list-unstyled {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.contact-footer .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.contact-footer .list-unstyled li a {
+  margin-left: 11px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.contact-footer .list-unstyled li a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Responsive layout for Footer */
+.contact-footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-footer .col-md-3 {
+  flex: 1 1 22%;
+  margin-bottom: 20px;
+}
+
+.contact-footer .social-icons a {
+  font-size: 1.5rem;
+}
+
+.contact-footer .social-icons {
+  display: flex;
+  flex-direction: column;
+  /* Arrange icons vertically */
+  align-items: center;
+  /* Center the icons horizontally */
+}
+
+.contact-footer .social-icons .col-12 {
+  margin-top: 10px;
+  /* Adds space at the bottom of the last icon */
+}
+
+@media (max-width: 768px) {
+  .contact-footer .col-md-3 {
+    flex: 1 1 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-footer .col-md-3 {
+    flex: 1 1 100%;
+  }
+}
+
+/* Copyright Section */
+.Copyright {
+  height: 45px;
+  color: white;
+  border-top: 1px solid white;
+}
+
+.Copyright p {
+  margin: 10px;
+  color: #fff;
+}

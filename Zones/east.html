@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zone.css">
+    <title>Historical Monuments-east</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../home/logggggo.jpg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+
+                    <!-- Dropdown for Zones -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Zones
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../Zones/north.html">North Zone</a></li>
+                            <li><a class="dropdown-item" href="../Zones/east.html">East Zone</a></li>
+                            <li><a class="dropdown-item" href="../Zones/south.html">South Zone</a></li>
+                            <li><a class="dropdown-item" href="../Zones/west.html">West Zone</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../seven wonders/wonder.html">World Wonders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Contact Us/contact.html" download="">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../feedback/feedback.html">Feedback</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="gallery" class="py-5">
+        <div class="zone-section" id="east">
+            <h3 class="text-center">East Zone</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModal">
+                            <img src="images/taj mahal.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Taj Mahal</h5>
+                                <p class="card-text">India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal Structure -->
+                    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Taj Mahal</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/taj mahal.jpeg" id="modalImage" class="img-fluid" alt="Monument">
+                                    <p id="modalDescription">The Taj Mahal, located in Agra, India, is a mausoleum built by
+                                        Emperor Shah Jahan in memory of his wife Mumtaz Mahal. Completed in 1653, it is an
+                                        exquisite example of Mughal architecture, combining Islamic, Persian, Ottoman, and
+                                        Indian styles. Made of white marble, it symbolizes eternal love and is a UNESCO
+                                        World Heritage Site.</p>
+                                    <p id="modalDate"><b>Date of construction:</b> Began in 1632 and completed in 1653.</p>
+                                    <a href="../pdfs/Taj mahal.pdf" target="_blank">
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block">For More
+                                            Info</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModalchina">
+                            <img src="images/wall of china.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Great Wall Of China</h5>
+                                <p class="card-text">China</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal Structure -->
+                    <div class="modal fade" id="imageModalchina" tabindex="-1" aria-labelledby="imageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Great Wall Of China</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/wall of china.jpeg" id="modalImage" class="img-fluid" alt="Monument">
+                                    <p id="modalDescription">The Great Wall of China is a historic fortification that
+                                        stretches over 13,000 miles across northern China. Initially built to protect
+                                        against invasions, it was constructed by several dynasties, primarily the Qin, Han,
+                                        and Ming Dynasties. The wall is an incredible feat of engineering, featuring
+                                        watchtowers, barriers, and strategic routes. It is a symbol of China's strength and
+                                        endurance.</p>
+                                    <p id="modalDate"><b>Date of construction:</b> Began in 7th century BC and was extended
+                                        until
+                                        the 17th century.</p>
+                                    <a href="../pdfs/Great wall.pdf" target="_blank">
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block">For More
+                                            Info</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModalangkor">
+                            <img src="images/Angkor Wat.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Angkor Wat</h5>
+                                <p class="card-text">Cambodia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal Structure -->
+                    <div class="modal fade" id="imageModalangkor" tabindex="-1" aria-labelledby="imageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Angkor Wat</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/Angkor Wat.jpeg" id="modalImage" class="img-fluid" alt="Monument">
+                                    <p id="modalDescription">Angkor Wat, located in Cambodia, is the largest religious
+                                        monument in the world. Originally constructed as a Hindu temple dedicated to the god
+                                        Vishnu, it was later transformed into a Buddhist temple. Known for its stunning
+                                        architecture and intricate carvings, it represents the classical style of Cambodian
+                                        architecture and is a symbol of Cambodia's cultural heritage.
+    
+                                    </p>
+                                    <p id="modalDate"><b>Date of construction:</b> Completed in the early 12th century
+                                        during the
+                                        reign of King Suryavarman II.</p>
+                                    <a href="../pdfs/Angkor.pdf" target="_blank">
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block">For More
+                                            Info</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModalpetra">
+                            <img src="images/Petra.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Petra</h5>
+                                <p class="card-text">Jordan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="imageModalpetra" tabindex="-1" aria-labelledby="imageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Petra</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/Petra.jpeg" id="modalImage" class="img-fluid" alt="Monument">
+                                    <p id="modalDescription">Petra, an ancient city in Jordan, is renowned for its rock-cut
+                                        architecture and water management system. Founded by the Nabataeans around the 6th
+                                        century BCE, Petra became a major trading hub. Its most famous feature is the
+                                        Al-Khazneh (Treasury), carved directly into the rose-red cliffs. Today, Petra is a
+                                        UNESCO World Heritage Site and one of the New Seven Wonders of the World.</p>
+                                    <p id="modalDate"><b>Date of construction:</b> Founded around the 6th century BCE. </p>
+                                    <a href="../pdfs/Petra.pdf" target="_blank">
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block">For More
+                                            Info</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModalmachu">
+                            <img src="images/Machu Picch.jpg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Machu Picchu</h5>
+                                <p class="card-text">Peru</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="imageModalmachu" tabindex="-1" aria-labelledby="imageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Machu Picchu</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/Machu Picch.jpg" id="modalImage" class="img-fluid" alt="Monument">
+                                    <p id="modalDescription">Machu Picchu, an ancient Incan city located in the Andes
+                                        Mountains of Peru, is known for its stunning terraces, temples, and palaces.
+                                        Believed to have been built in the 15th century during the reign of Emperor
+                                        Pachacuti, it remained hidden from the outside world until its rediscovery in 1911
+                                        by explorer Hiram Bingham. Today, it is one of the most iconic archaeological sites
+                                        in the world.</p>
+                                    <p id="modalDate"><b>Date of construction:</b> Built in the 15th century.</p>
+                                    <a href="../pdfs/Machu.pdf" target="_blank">
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block">For More
+                                            Info</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModalfuji">
+                            <img src="images/Mount Fuji.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Mount Fuji</h5>
+                                <p class="card-text">Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="imageModalfuji" tabindex="-1" aria-labelledby="imageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Mount Fuji</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/Mount Fuji.jpeg" id="modalImage" class="img-fluid" alt="Monument">
+                                    <p id="modalDescription">Mount Fuji, located in Japan, is an active stratovolcano and
+                                        the country's highest peak, standing at 3,776 meters. It is an iconic symbol of
+                                        Japan, revered for its beauty and spiritual significance. Mount Fuji is a popular
+                                        site for hiking and is depicted in numerous artworks, particularly in Japanese
+                                        ukiyo-e woodblock prints. It is also considered a sacred site in Shinto and Buddhist
+                                        traditions.</p>
+                                    <p id="modalDate"><b>Date of construction:</b> 1707, during the Edo period.</p>
+                                    <a href="../pdfs/Mount Fuji.pdf" target="_blank">
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block">For More
+                                            Info</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModalheaven">
+                            <img src="images/Temple of Heaven.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Temple of Heaven</h5>
+                                <p class="card-text">China</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="imageModalheaven" tabindex="-1" aria-labelledby="imageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Temple of Heaven</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/Temple of Heaven.jpeg" id="modalImage" class="img-fluid"
+                                        alt="Monument">
+                                    <p id="modalDescription">The Temple of Heaven in Beijing, China, is an ancient religious
+                                        complex used by emperors of the Ming and Qing Dynasties to perform annual ceremonies
+                                        for a good harvest. The temple is renowned for its architectural design and
+                                        symbolism, representing the relationship between heaven and earth. Its most famous
+                                        structure is the Hall of Prayer for Good Harvests, an elegant circular building with
+                                        a distinctive blue-tiled roof.</p>
+                                    <p id="modalDate"><b>Date of construction:</b> Completed in 1420 during the Ming
+                                        Dynasty.</p>
+                                    <a href="../pdfs/Temple of Heaven.pdf" target="_blank">
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block">For More
+                                            Info</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModalpagoda">
+                            <img src="images/Shwedagon Pagoda.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Shwedagon Pagoda</h5>
+                                <p class="card-text">Myanmar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="imageModalpagoda" tabindex="-1" aria-labelledby="imageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Shwedagon Pagoda</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/Shwedagon Pagoda.jpeg" id="modalImage" class="img-fluid"
+                                        alt="Monument">
+                                    <p id="modalDescription">The Shwedagon Pagoda, located in Yangon, Myanmar, is one of the
+                                        most famous and revered Buddhist stupas in the world. It is said to house relics of
+                                        the Buddha and has a golden stupa that towers at 99 meters. The pagoda is surrounded
+                                        by numerous smaller stupas and shrines, making it a center of spiritual and cultural
+                                        significance for Buddhists. Its golden exterior is a symbol of purity and
+                                        devotion...</p>
+                                    <p id="modalDate"><b>Date of construction:</b> Believed to have been built around the
+                                        6th century BCE, with renovations over the centuries.</p>
+                                    <a href="../pdfs/Shwedagon Pagoda.pdf" target="_blank">
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block">For More
+                                            Info</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <script src="../gallery/gallery.js"></script>
+    <footer class="footer bg-dark text-white py-4"> 
+        <div class="container">
+          <div class="row">
+            <!-- Quick Links Section -->
+            <div class="col-md-3">
+              <h5 class="mb-3">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="../index.html" class="text-white">Home</a></li>
+                <li><a href="../seven wonders/wonder.html" class="text-white">World Wonders</a></li>
+                <li><a href="../gallery/gallery.html" class="text-white">Gallery</a></li>
+                <li><a href="../feedback/feedback.html" class="text-white">Feedback</a></li>
+              </ul>
+            </div>
+      
+            <!-- Zones Section with Heading -->
+            <div class="col-md-3">
+              <h5 class="mb-3">Explore by Zones</h5>
+              <ul class="list-unstyled">
+                <li><a href="../Zones/north.html" class="text-white">North Zone</a></li>
+                <li><a href="../Zones/east.html" class="text-white">East Zone</a></li>
+                <li><a href="../Zones/south.html" class="text-white">South Zone</a></li>
+                <li><a href="../Zones/west.html" class="text-white">West Zone</a></li>
+              </ul>
+            </div>
+      
+            <!-- Social Media Section -->
+            <div class="col-md-3">
+              <h5 class="mb-3">Follow Us</h5>
+              <div class="social-icons">
+                <div class="row">
+                  <div class="col-6 text-center">
+                    <a href="https://www.facebook.com/" target="_blank" class="btn btn-social btn-facebook mx-2">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+                  <div class="col-6 text-center">
+                    <a href="https://x.com/?lang=en" target="_blank" class="btn btn-social btn-twitter mx-2">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center mt-2">
+                    <a href="https://www.instagram.com/" target="_blank" class="btn btn-social btn-instagram mx-2">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Contact Us Section -->
+            <div class="col-md-3">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li class="d-flex align-items-center mb-3">
+                  <i class="fas fa-phone-alt mr-2"></i>
+                  <a href="tel:+1234567890" class="text-white">+1 (234) 567-890</a>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="fas fa-envelope mr-2"></i>
+                  <a href="https://workspace.google.com/gmail/" class="text-white">contact@monumentsgallery.com</a>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="fas fa-map-marker-alt mr-2"></i>
+                  <a href="https://www.google.com/maps" class="text-white" target="_blank">Aptech Learning N. Nazimabad</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footerborder"></div>
+        </div>
+      </footer>
+      
+      <!-- Copyright Section -->
+      <div class="Copyright text-center bg-dark">
+        <p class="mb-0">&copy; 2025 Monuments Gallery | All Rights Reserved</p>
+      </div>
+
+</body>
+
+</html>

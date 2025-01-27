@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Monuments-gallery</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <!-- Logo with Image -->
+            <a class="navbar-brand" href="../index.html">
+                <img src="../home/logggggo.jpg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+
+                    <!-- Dropdown for Zones -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Zones
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../Zones/north.html">North Zone</a></li>
+                            <li><a class="dropdown-item" href="../Zones/east.html">East Zone</a></li>
+                            <li><a class="dropdown-item" href="../Zones/south.html">South Zone</a></li>
+                            <li><a class="dropdown-item" href="../Zones/west.html">West Zone</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../seven wonders/wonder.html">World Wonders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Contact Us/contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../feedback/feedback.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Monuments by Zones</h2>
+            <div class="zone-section" id="east">
+                <h3 class="text-center">East Zone</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/taj mahal.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Taj Mahal</h5>
+                                <p class="card-text">India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/wall of china.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Great Wall Of China</h5>
+                                <p class="card-text">China</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Angkor Wat.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Angkor Wat</h5>
+                                <p class="card-text">Cambodia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Petra.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Petra</h5>
+                                <p class="card-text">Jordan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Machu Picch.jpg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Machu Picchu</h5>
+                                <p class="card-text">Peru</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <a href="../WORD FILES/The Machu Picchu.docx" class="btn btn-secondary"
+                                        target="_blank">
+                                        For More Info
+                                    </a> -->
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Mount Fuji.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Mount Fuji</h5>
+                                <p class="card-text">Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="imageModalfuji" tabindex="-1" aria-labelledby="imageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Mount Fuji</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/Mount Fuji.jpeg" id="modalImage" class="img-fluid" alt="Monument">
+                                    <p id="modalDescription">Mount Fuji is an active stratovolcano located on the Honshu
+                                        Island of Japan. It is the highest mountain in Japan, standing at 3,776 meters
+                                        (12,389 feet) and is one of the most recognizable and iconic natural landmarks
+                                        in the world. Mount Fuji is a revered symbol in Japanese culture, often depicted
+                                        in art, literature, and spiritual practices.</p>
+                                    <p id="modalDate"><b>Date of construction: </b>: Last erupted in 1707-1708 (Edo
+                                        period), but the mountain itself is believed to have formed over a period of
+                                        around 100,000 years.</p>
+                                    <a href="../WORD FILES/The Mount Fuji.docx" class="btn btn-secondary"
+                                        target="_blank">
+                                        For More Info
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Temple of Heaven.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Temple of Heaven</h5>
+                                <p class="card-text">China</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="imageModalheaven" tabindex="-1" aria-labelledby="imageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Temple of Heaven</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/Temple of Heaven.jpeg" id="modalImage" class="img-fluid"
+                                        alt="Monument">
+                                    <p id="modalDescription">The Temple of Heaven is a historic religious complex
+                                        located in Beijing, China. It was used by emperors of the Ming and Qing
+                                        dynasties for annual ceremonies of prayer for a good harvest. The temple is one
+                                        of the finest examples of Chinese religious architecture and is known for its
+                                        symbolic design, representing the relationship between Earth and Heaven.</p>
+                                    <p id="modalDate"><b>Date of construction: </b>: 1406 – 1420</p>
+                                    <a href="../WORD FILES/The Temple of Heaven.docx" class="btn btn-secondary"
+                                        target="_blank">
+                                        For More Info
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Shwedagon Pagoda.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Shwedagon Pagoda</h5>
+                                <p class="card-text">Myanmar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NORTH ZONE -->
+            <div class="zone-section" id="north">
+                <h3 class="text-center">North Zone</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Stonehenge.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Stonehenge</h5>
+                                <p class="card-text">United Kingdom</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Eiffel Tower.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Eiffel Tower</h5>
+                                <p class="card-text">Paris</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Colosseum.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Colosseum</h5>
+                                <p class="card-text">Italy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Acropolis.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Acropolis</h5>
+                                <p class="card-text">Greece</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Notre-Dame Cathedral.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Notre-Dame Cathedral</h5>
+                                <p class="card-text">France</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/The Kremlin.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">The Kremlin</h5>
+                                <p class="card-text">Russia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Neuschwanstein Castle.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Neuschwanstein Castle</h5>
+                                <p class="card-text">Germany</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Big Ben.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Big Ben</h5>
+                                <p class="card-text">United Kingdom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WEST ZONE -->
+            <div class="zone-section" id="west">
+                <h3 class="text-center">West Zone</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Statue of Liberty.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Statue of Liberty</h5>
+                                <p class="card-text">USA</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Colossus of Rhodes.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Colossus of Rhodes
+                                </h5>
+                                <p class="card-text">Greece</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Mount Rushmore.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Mount Rushmore</h5>
+                                <p class="card-text">USA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Grand Canyon.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Grand Canyon</h5>
+                                <p class="card-text">USA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Yellowstone National Park.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Yellowstone National Park</h5>
+                                <p class="card-text">USA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Niagara Falls.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Niagara Falls</h5>
+                                <p class="card-text">Canada/USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Golden Gate Bridge.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Golden Gate Bridge</h5>
+                                <p class="card-text">USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Hollywood Sign.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Hollywood Sign</h5>
+                                <p class="card-text">USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SOUTH ZONE -->
+            <div class="zone-section" id="south">
+                <h3 class="text-center">South Zone</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Christ the Redeemer.jpg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Christ the Redeemer</h5>
+                                <p class="card-text">Brazil</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Machu Picch.jpg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Machu Picchu</h5>
+                                <p class="card-text">Peru</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Christ of the Andes.jpg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Christ of the Andes</h5>
+                                <p class="card-text">Argentina/Chile</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModalIzta">
+                            <img src="images/Chichen Itza.jpeg" class="card-img-top" alt="Taj Mahal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Chichen Itza</h5>
+                                <p class="card-text">Mexico</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                     <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/The Dome of the Rock.jpeg" class="card-img-top" alt="Taj Mahal">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">The Dome of the Rock</h5>
+                            <p class="card-text">Jerusalem</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Sagrada Familia.jpeg" class="card-img-top" alt="Taj Mahal">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sagrada Familia</h5>
+                            <p class="card-text">Spain</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Sydney Opera House.jpeg" class="card-img-top" alt="Taj Mahal">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sydney Opera House</h5>
+                            <p class="card-text">Australia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Burj Khalifa.jpeg" class="card-img-top" alt="Taj Mahal">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Burj Khalifa</h5>
+                            <p class="card-text">UAE</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white py-4"> 
+        <div class="container">
+          <div class="row">
+            <!-- Quick Links Section -->
+            <div class="col-md-3">
+              <h5 class="mb-3">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="../index.html" class="text-white">Home</a></li>
+                <li><a href="../seven wonders/wonder.html" class="text-white">World Wonders</a></li>
+                <li><a href="../gallery/gallery.html" class="text-white">Gallery</a></li>
+                <li><a href="../feedback/feedback.html" class="text-white">Feedback</a></li>
+              </ul>
+            </div>
+      
+            <!-- Zones Section with Heading -->
+            <div class="col-md-3">
+              <h5 class="mb-3">Explore by Zones</h5>
+              <ul class="list-unstyled">
+                <li><a href="../Zones/north.html" class="text-white">North Zone</a></li>
+                <li><a href="../Zones/east.html" class="text-white">East Zone</a></li>
+                <li><a href="../Zones/south.html" class="text-white">South Zone</a></li>
+                <li><a href="../Zones/west.html" class="text-white">West Zone</a></li>
+              </ul>
+            </div>
+      
+            <!-- Social Media Section -->
+            <div class="col-md-3">
+              <h5 class="mb-3">Follow Us</h5>
+              <div class="social-icons">
+                <div class="row">
+                  <div class="col-6 text-center">
+                    <a href="https://www.facebook.com/" target="_blank" class="btn btn-social btn-facebook mx-2">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+                  <div class="col-6 text-center">
+                    <a href="https://x.com/?lang=en" target="_blank" class="btn btn-social btn-twitter mx-2">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center mt-2">
+                    <a href="https://www.instagram.com/" target="_blank" class="btn btn-social btn-instagram mx-2">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Contact Us Section -->
+            <div class="col-md-3">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li class="d-flex align-items-center mb-3">
+                  <i class="fas fa-phone-alt mr-2"></i>
+                  <a href="tel:+1234567890" class="text-white">+1 (234) 567-890</a>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="fas fa-envelope mr-2"></i>
+                  <a href="https://workspace.google.com/gmail/" class="text-white">contact@monumentsgallery.com</a>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="fas fa-map-marker-alt mr-2"></i>
+                  <a href="https://www.google.com/maps" class="text-white" target="_blank">Aptech Learning N. Nazimabad</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footerborder"></div>
+        </div>
+      </footer>
+      
+      <!-- Copyright Section -->
+      <div class="Copyright text-center bg-dark">
+        <p class="mb-0">&copy; 2025 Monuments Gallery | All Rights Reserved</p>
+      </div>
+      
+
+
+</body>
+</html>
